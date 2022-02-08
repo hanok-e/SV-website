@@ -3682,7 +3682,7 @@ fieldset:disabled .btn {
 
 .dropdown-item:hover, .dropdown-item:focus {
   color: #1e2125;
-  background-color: #e9ecef;
+  background-color: #6a040f;
 }
 
 .dropdown-item.active, .dropdown-item:active {
@@ -11211,3 +11211,5 @@ fieldset:disabled .btn {
 ul {
     list-style-type: none;
 }
+
+body { padding-top: 70px; }

@@ -12,48 +12,52 @@
 </head>
 
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light nav">
-            <a class="navbar-brand text-secondary" href="#">CFD Lab</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./main.html">Home <span class="sr-only"></span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./profile.html">Profile</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./projects.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./publications.html">Publications</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            People
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Current</a>
-                            <a class="dropdown-item" href="#">Alumni</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
+
+
+    <div class="text-white bg-primary">
+        <nav class="navbar navbar-expand-lg fixed-top bg-primary">
+            <div class="container">
+                <a class="navbar-brand text-secondary" href="#">CFD Lab</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="./main.html">Home <span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="./profile.html">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="./projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="./publications.html">Publications</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                People
+                            </a>
+                            <div class="dropdown-menu bg-primary" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item text-white" href="./current.html">Current</a>
+                                <a class="dropdown-item text-white" href="./alumni.html">Alumni</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
         </nav>
+    </div>
 
-
-        <div>
+        <div class="container">
             <p>
-            <h5 class="text-secondary"> Journal Publications </h5>
+            <h5 class="p-2 text-white bg-secondary"> Journal Publications </h5>
             <ol>
                 <li>Ullas, P.K., Dhiman Chatterjee and S.Vengadesan,
                     ‘Prediction of unsteady, internal turbulent cavitating flow using dynamic cavitation model’,
@@ -424,7 +428,7 @@
                 <li>
                     Virag Mishra, S.Vengadesan and S.K.Bhattacharyya,
                     ‘Estimation of translational added mass of axisymmetric underwater bodies with forward speed using
-                    computational fluid dynamics’,
+                    computational fluid p-2 text-white bg-secondarydynamics’,
                     <i> Journal of Ship Research </i>,
                     Vol. 55, n3, pp. 185 - 195, 2011.
                 </li>
@@ -496,7 +500,7 @@
                 <li>
                     N. Sekarapandian, YVSS Sanyasiraju and S.Vengadesan,
                     ‘Compact finite difference schemes to simulate unsteady phenomena’,
-                    <i> Jl. of Combinatorics, Information & System Science </i>,
+                    <i> Jl. of Combinatop-2 text-white bg-secondaryrics, Information & System Science </i>,
                     Vol. 33, No. 3-4, 231 – 241, 2008.
                 </li>
 
@@ -662,8 +666,10 @@
                     Vol.44, pp.297-302, 1992.
                 </li>
             </ol>
+        </div>
 
-            <h5 class="text-secondary"> Conference Proceedings </h5>
+        <div class="container">
+            <h5 class="p-2 text-white bg-secondary"> Conference Proceedings </h5>
             <ol>
                 <li>
                     Shyam Prasad, Sai Guruprasad Jakkala and S. Vengadesan,
@@ -1174,8 +1180,8 @@
             </p>
         </div>
 
-        <div>
-            <h5 class="text-secondary"> Book Chapters </h5>
+        <div class="container">
+            <h5 class="p-2 text-white bg-secondary"> Book Chapters </h5>
             <ol>
                 <li>
                     Sai Guruprasad Jakkala and S.Vengadesan,
@@ -1247,6 +1253,19 @@
         </div>
 
     </div>
+
+
+    <div>
+        <footer class="bg-primary text-white pt-4 pb-4">
+            <div class="container">
+                CFD Lab <br>
+                Deptartment of Applied Mechanics <br>
+                Indian Institute of Technology Madras <br>
+            </div>
+        </footer>
+    </div>
+
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.js"></script>
 
 </body>
 
