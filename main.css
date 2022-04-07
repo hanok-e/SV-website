@@ -11228,9 +11228,13 @@ a {
   color: #6a040f;
   margin: 0 -.25rem;
   padding: 0 .25rem;
-  transition: color .0s ease-in-out, box-shadow .0s ease-in-out;
+  transition: color 0s ease-in-out, box-shadow 0s ease-in-out;
 }
 a:hover {
   box-shadow: inset 400px 0 0 0 #6a040f;
   color: white;
+}
+
+.collapse.in {        
+  display: block;       
 }
