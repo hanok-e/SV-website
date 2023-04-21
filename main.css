@@ -11215,12 +11215,23 @@ ul {
 
 body { padding-top: 60px; }
 
+/*
 .color1 {
   background-color: #f8f9fa; 
 }
 
 .color2 {
   background-color: #e9ecef;
+}
+*/
+
+
+.color1 {
+  background-color: #ffffff;
+}
+
+.color2 {
+  background-color: #ffffff;
 }
 
 a {
@@ -11237,4 +11248,10 @@ a:hover {
 
 .collapse.in {        
   display: block;       
+}
+
+.fit-image{
+width: 100%;
+object-fit: cover;
+height: 300px; /* only if you want fixed height */
 }
